@@ -17,9 +17,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/Allen-LPL/go-mydumper/config"
 	querypb "github.com/Allen-LPL/go-mysqlstack/sqlparser/depends/query"
 	"github.com/Allen-LPL/go-mysqlstack/xlog"
+	"go-mydumper/config"
 )
 
 func writeMetaData(args *config.Config) {

@@ -12,11 +12,11 @@ package common
 import (
 	"testing"
 
-	"github.com/Allen-LPL/go-mydumper/config"
 	"github.com/Allen-LPL/go-mysqlstack/driver"
 	"github.com/Allen-LPL/go-mysqlstack/sqlparser/depends/sqltypes"
 	"github.com/Allen-LPL/go-mysqlstack/xlog"
 	"github.com/stretchr/testify/assert"
+	"go-mydumper/config"
 )
 
 func TestLoader(t *testing.T) {

@@ -15,12 +15,12 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Allen-LPL/go-mydumper/config"
 	"github.com/Allen-LPL/go-mysqlstack/driver"
 	querypb "github.com/Allen-LPL/go-mysqlstack/sqlparser/depends/query"
 	"github.com/Allen-LPL/go-mysqlstack/sqlparser/depends/sqltypes"
 	"github.com/Allen-LPL/go-mysqlstack/xlog"
 	"github.com/stretchr/testify/assert"
+	"go-mydumper/config"
 )
 
 func TestDumper(t *testing.T) {

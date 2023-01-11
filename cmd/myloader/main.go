@@ -14,8 +14,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/Allen-LPL/go-mydumper/common"
-	"github.com/Allen-LPL/go-mydumper/config"
+	"go-mydumper/common"
+	"go-mydumper/config"
 
 	"github.com/Allen-LPL/go-mysqlstack/xlog"
 )

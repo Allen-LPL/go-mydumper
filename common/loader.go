@@ -19,9 +19,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/Allen-LPL/go-mydumper/config"
 	"github.com/Allen-LPL/go-mysqlstack/sqlparser/depends/common"
 	"github.com/Allen-LPL/go-mysqlstack/xlog"
+	"go-mydumper/config"
 )
 
 // Files tuple.
